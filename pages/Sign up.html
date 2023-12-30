@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container text-center py-5">
+      <div class="content w-50 mt-5 pt-5 m-auto">
+        <div class="title">
+          <h1 class="text-info">Smart Sign Up System</h1>
+        </div>
+        <div class="form py-2">
+          <input
+            type="text"
+            class="form-control my-3 m-auto"
+            placeholder="Enter Your Name"
+            id="signUpName"
+          />
+
+          <input
+            type="email"
+            id="signUpEmail"
+            class="form-control my-3 m-auto"
+            placeholder="Enter Your Email"
+          />
+
+          <input
+            type="password"
+            id="signUpPassword"
+            class="form-control my-3 m-auto"
+            placeholder="Enter Your Password"
+          />
+          <button class="btn btn-outline-info" id="signupBtn" onclick="addUser();">Sign Up</button>
+          <p class="text-white pt-3">
+            Allready Have Account ? 
+            <a href="../index.html" class="text-decoration-none text-white"
+              >Sign In</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
